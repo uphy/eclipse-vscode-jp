@@ -38,5 +38,16 @@ RUN apt-get update && \
 ENV GOHOME=/root/go \
     GOPATH=/root/go \
     PATH=$PATH:$GOHOME/bin
+# Install Golang development tools
+RUN go get \
+      github.com/nsf/gocode \
+      github.com/rogpeppe/godef \
+      github.com/golang/lint/golint \
+      github.com/lukehoban/go-find-references \
+      github.com/lukehoban/go-outline \
+      sourcegraph.com/sqs/goreturns \
+      golang.org/x/tools/cmd/gorename \
+      github.com/tpng/gopkgs \
+      github.com/newhook/go-symbols
 
 COPY files /
