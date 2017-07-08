@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=VSCode
+Keywords=java;go;golang;vscode;code;development
+Exec=/usr/local/vscode/code
+Terminal=false
+Type=Application
+Icon=/usr/local/vscode/resources/app/resources/linux/code.png

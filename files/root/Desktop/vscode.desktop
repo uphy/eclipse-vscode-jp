@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=VSCode
+Icon=/usr/local/vscode/resources/app/resources/linux/code.png
+URL=/usr/share/applications/vscode.desktop

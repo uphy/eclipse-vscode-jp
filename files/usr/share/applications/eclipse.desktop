@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=eclipse
-Keywords=java;eclipse
+Name=Eclipse
+Keywords=java;eclipse;development
 Exec=/usr/local/eclipse/eclipse
 Terminal=false
 Type=Application
