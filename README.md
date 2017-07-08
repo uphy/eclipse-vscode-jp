@@ -20,6 +20,8 @@ $ docker run -d -p 8080:8080 uphy/eclipse-vscode-jp
 Eclipse/VSCode(Visual Studio Code)/Terminalがデスクトップにありますので、
 ダブルクリックして実行して下さい。
 
+![capture](https://raw.githubusercontent.com/uphy/eclipse-vscode-jp/images/capture.png)
+
 ## 永続化
 
 以下のフォルダを永続化すると、再構築しても快適です。
