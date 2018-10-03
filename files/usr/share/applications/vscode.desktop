@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=VSCode
 Keywords=java;go;golang;vscode;code;development
-Exec=/usr/local/vscode/code
+Exec=/usr/bin/code --user-data-dir "."
 Terminal=false
 Type=Application
-Icon=/usr/local/vscode/resources/app/resources/linux/code.png
+Icon=/usr/share/code/resources/app/resources/linux/code.png

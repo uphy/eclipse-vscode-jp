@@ -3,11 +3,11 @@
 開発環境用のデスクトップ環境Dockerイメージです。
 以下を含みます。
 
-- OpenJDK 1.8 (JavaFX含む)
-- Apache Maven 3.5
-- Eclipse Oxygen
-- Visual Studio Code
-- Golang
+- OpenJDK 10.0.2
+- Apache Maven 3.5.4
+- Eclipse 4.9
+- Visual Studio Code 1.27.2
+- Golang 1.11.1
 
 ## 実行
 
@@ -24,7 +24,7 @@ Eclipse/VSCode(Visual Studio Code)/Terminalがデスクトップにあります�
 
 ## 永続化
 
-以下のフォルダを永続化すると、再構築しても快適です。
+以下のフォルダを永続化すると、再構築しても快適です。
 
 |対象|場所|
 |----:|:-----|
